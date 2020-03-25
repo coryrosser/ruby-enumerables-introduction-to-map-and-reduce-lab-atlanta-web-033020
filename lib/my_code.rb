@@ -57,7 +57,10 @@ def reduce_to_all_true(source_array)
   return result
 end
     
-
+def reduce_to_any_true(source_array)
+  result = source_array.any? {|elements| elements != false && elements != nil}
+  return result
+end
 
 
 
