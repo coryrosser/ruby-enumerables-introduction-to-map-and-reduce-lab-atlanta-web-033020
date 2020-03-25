@@ -54,7 +54,7 @@ end
 def reduce_to_all_true(source_array)
   result = source_array.all? {|elements| elements == true}
   
-  puts result
+  return result
 end
     
 
